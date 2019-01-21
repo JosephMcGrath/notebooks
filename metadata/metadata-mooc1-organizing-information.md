@@ -88,15 +88,58 @@ As an example using [scientific papers](https://firstmonday.org), the abstract i
 
 ## [1-7: Library of Congress Subject Headings (LCSH)](https://www.youtube.com/watch?v=gCgA5ZHUkN4)
 
-A real-world example, but an old and widely applicable one.
+A real-world example, but an mature and widely applicable one. It's a *very* comprehensive set of subjects to apply to books. In this context 'subject' can also be 'index term', 'descriptor'. It's also different to the Library of Congress classification which is a way pf assigning a 'call number' to each item.
+
+The [full list](https://www.loc.gov/aba/publications/FreeLCSH/freelcsh.html) is *huge*. This is basically a 'controlled vocabulary' - a set of words that are the *entire* set of acceptable words to be used. This is different to dictionaries which are a list of words but don't claim to be all the words that *can* be used.
 
 ## [1-8: Thesauri](https://www.youtube.com/watch?v=iN29TaNo6Fw)
 
+In this context, 'Thesaurus' is almost synonymous with 'Controlled Vocabulary'. The traditional thesaurus is just a list of synonyms and antonyms for words or phrases. For a controlled vocabulary there's still a list of words and relationships between words. These words are carefully selected.
+
+The list of words used is suited to the specific use case. Vocabularies vary both in terms of breadth and depth. More specific applications will be deeper.
+
+A controlled vocabulary is to define the entire set of entities we care about. They can be linked, e.g. in the Library of Congress Subject Headings define relationships between terms. One particular link here is the 'Use For' and 'Use' relationships, which define the proper terms to use instead of other items (very useful for maintaining a controlled vocabulary).
+
+An example term here is:
+
+* Term - Information Science
+* Scope note - Study of the gathering, organizing, storing, retrieving and dissemination of information
+* Broader term: (fields and discipline)
+* Narrow term: Archival Science, Informatics...
+* Related term: Cognitive Science, Computer Science...
+* Use for: Library and Information Science....
+
+So this defines a tree-structure of the terms. One snag is that different use-cases will determine the definitions.
+
+> The bias of that organisation tends to affect the hierarchy.
+
+This is discussed in more detail in [Sorting Things Out, Classification and Its Consequences](https://mitpress.mit.edu/books/sorting-things-out﻿) by Geoffrey C. Bowker and Susan Leigh Star.
+
 ## [1-9: Faceted Classification](https://www.youtube.com/watch?v=90eU5Pa5KAs)
+
+It's possible to use multiple controlled vocabulary to describe one thing. This allows for *faceted classification* - description of one thing in several ways. This is particularly useful to have standardised ways to describe a particular aspect of something (e.g. a language or a colour).
+
+As before, the controlled vocabulary you choose is dependent on the context - what we want to know about each thing. This maintains the ease of producing precise queries.
 
 ## [1-10: Ontologies](https://www.youtube.com/watch?v=oTMJa1Q08IY)
 
+> Ontology: Formal representation of a set of concepts within a domain.
+
+This goes beyond controlled vocabularies, which go beyond just a list of entities. The ontology basically describes a set of entities that exist when you're talking about a specific context. The example given here is the [Beer Ontology](https://www.cs.umd.edu/projects/plus/SHOE/onts/beer1.0.html) that outlines a way of describing beers.
+
+This goes beyond just a set of properties for *an item*, describing a series of related items (e.g. breweries for the Beer Ontology) and also defines logic about the relationships between these items. There seems to be a bit of crossover with relational databases here.
+
+Another example is the [Personal Ontology](https://www.cs.umd.edu/projects/plus/SHOE/onts/personal1.0.html) that describes a bunch of entities, their relationships and inferences that can be made from those relationships.
+
 ## [1-11: Uncontrolled Vocabulary](https://www.youtube.com/watch?v=xAemTzf5lYI)
+
+Uncontrolled vocabularies are basically a free text field for metadata. One of the most common types of these is a *tag*, which a lot of different sites use. They are generally used to make searching easier but because they're Uncontrolled there can be a lot of duplication on the tags that get applied to a single person.
+
+With things like hashtags, the tags aren't always describing the tweet itself, but more the motivation / background of the tweet - or even some user-specific applications. They are also be *part* of the tweet and so are part of the data *and* part of the metadata.
+
+In uncontrolled vocabularies, patterns still emerge between users, but also tags diverge (even with typos etc). In live systems these systems are useful to track unpredicted trends. Some of these patterns can be a bit opaque to outside users (acronyms etc).
+
+There's also some ongoing work into using uncontrolled vocabularies to update controlled ones.
 
 ## [1-12: The map is not the territory](https://www.youtube.com/watch?v=gqtuUie03wY)
 
