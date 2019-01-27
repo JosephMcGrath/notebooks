@@ -143,9 +143,37 @@ There's also some ongoing work into using uncontrolled vocabularies to update co
 
 ## [1-12: The map is not the territory](https://www.youtube.com/watch?v=gqtuUie03wY)
 
+This lecture points out that the relationship between metadata and the thing it describes is a simplification. This relationship is similar to the relationship between maps and the real world. It's a massive simplification but it is a *very useful* simplification that lets us work with a large and complex space and the features may be selected or muted depending on the context.
+
+The same is also true of the relationship between a vocabulary and natural language.
+
+> The map is not the territory but the map is more useful under certain conditions.
+
 ## [1-13: Purposes of Metadata](https://www.youtube.com/watch?v=rxm5pH_e6pE)
 
+Metata isn't always describing the features of a thing, but is the structure of a thing or what you can do with it. The three main categories of metadata here are:
+
+* Descriptive - Information about a resource,
+    * E.g. title, author, published date, file format
+* Structural - Information on how a resource is organised,
+    * Often describing compound objects (e.g. book, chapters, sections, pages),
+    * Provides a map of the structure / organisation of the resource,
+* Administrative - How an object should be stored / cared for,
+    * E.g. copyright / IP, access, origin (*provenience*),
+    * Subcategories are *Rights* and *Preservation*,
+
+And also subcategories, but that's later.
+
 ## [1-14: Important distinctions](https://www.youtube.com/watch?v=uQ2dd2L25yc)
+
+Important distinctions for metadata:
+
+* Level - item or collection,
+    * Some semantics here (is a book an item or a collection of chapters or pages),
+* Embedded or linked: Is the metadata in the object,
+    * E.g. the copyright page in a book vs a card catalog,
+* Human or machine readable,
+    * Not a hard distinction (e.g. HTML can be readable),
 
 ## [1-15: Metametadata](https://www.youtube.com/watch?v=5HXah6IMyq8)
 
