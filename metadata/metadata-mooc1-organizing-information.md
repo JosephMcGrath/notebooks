@@ -177,7 +177,37 @@ Important distinctions for metadata:
 
 ## [1-15: Metametadata](https://www.youtube.com/watch?v=5HXah6IMyq8)
 
+* What's the difference between data and the thing it's describing.
+* One example of this is census data.
+    * The data is about the population - so it is describing the households but is itself used as data.
+    * Then metadata is created about the census data. These levels go all the way down.
+* It comes down to data not actually being a thing in itself,
+    * There *isn't* a finite boundary between data and metadata,
+    * It's all subjective depending on the usage,
+
 ## [1-16: Introduction to Information Science](https://www.youtube.com/watch?v=Y-PbRKHKoU8)
+
+Information science links into many other subjects, there's a strong link between computer science, linguistics etc. There's also some links into psychology (what is it to know things).
+
+> Study of the gathering, organization, storing, retrieving and dissemination of information.
+
+Broadly speaking, Information Science is a strongly interdisciplanry field. It links into other fields and provides an intersection point.
+
+Information Science requires people - if information isn't informing someone, is it still information? Though you can talk about information objects (books, files etc) without directly interacting with people.
+
+The three elements going into this are:
+
+* Information,
+* Technology,
+* People,
+
+And their intercactions:
+
+* Human-Information Interaction,
+* Human-Computer Interaction,
+* Information Organisaion and Representation
+
+With metadata sitting in the middle of all of these.
 
 ## [1-17: What is information?](https://www.youtube.com/watch?v=vkPyJNEv1Dk)
 
