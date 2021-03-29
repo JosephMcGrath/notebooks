@@ -1,0 +1,9 @@
+name: learning_pydantic
+dependencies:
+  - python=3.8
+  # Jupyter
+  - nb_conda
+  - jupyterlab
+  # pydantic
+  - pydantic
+  - pandas
